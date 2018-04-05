@@ -1,0 +1,22 @@
+[
+  {
+    "name": "<code>Boolean.prototype</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean/prototype",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Boolean.prototype.toSource()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean/toSource",
+    "syntax": "<var>booleanObj</var>.toSource()\nBoolean.toSource()"
+  },
+  {
+    "name": "<code>Boolean.prototype.toString()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean/toString",
+    "syntax": "<code><var>bool</var>.toString()</code>"
+  },
+  {
+    "name": "<code>Boolean.prototype.valueOf()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean/valueOf",
+    "syntax": "<code><var>bool</var>.valueOf()</code>"
+  }
+]

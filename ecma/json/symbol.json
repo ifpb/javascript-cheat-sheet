@@ -1,0 +1,97 @@
+[
+  {
+    "name": "<code>Symbol.prototype</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/prototype",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Symbol.iterator</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/iterator",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Symbol.asyncIterator</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/asyncIterator",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Symbol.match</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/match",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Symbol.replace</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/replace",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Symbol.search</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/search",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Symbol.split</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/split",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Symbol.hasInstance</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/hasInstance",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Symbol.isConcatSpreadable</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/isConcatSpreadable",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Symbol.unscopables</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/unscopables",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Symbol.species</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/species",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Symbol.toPrimitive</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toPrimitive",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Symbol.toStringTag</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toStringTag",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Symbol.for(key)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/for",
+    "syntax": "<var>Symbol.for(key)</var>;"
+  },
+  {
+    "name": "<code>Symbol.keyFor(sym)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/keyFor",
+    "syntax": "<var>Symbol.keyFor(sym)</var>;"
+  },
+  {
+    "name": "<code>Symbol.prototype.toSource()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toSource",
+    "syntax": "<var>Symbol</var>.toSource()\n\nvar sym = Symbol()\nsym.toSource()"
+  },
+  {
+    "name": "<code>Symbol.prototype.toString()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toString",
+    "syntax": "<var>Symbol().toString()</var>;"
+  },
+  {
+    "name": "<code>Symbol.prototype.valueOf()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/valueOf",
+    "syntax": "<var>Symbol().valueOf();\n</var>"
+  },
+  {
+    "name": "<code>Symbol.prototype[@@toPrimitive]</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/@@toPrimitive",
+    "syntax": "<var>Symbol()[Symbol.toPrimitive](hint);\n</var>"
+  }
+]

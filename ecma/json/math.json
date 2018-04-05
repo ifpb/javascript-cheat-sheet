@@ -1,0 +1,217 @@
+[
+  {
+    "name": "<code>Math.E</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/E",
+    "syntax": ""
+  }, 
+  {
+    "name": "<code>Math.LN2</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/LN2",
+    "syntax": ""
+  }, 
+  {
+    "name": "<code>Math.LN10</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/LN10",
+    "syntax": ""
+  }, 
+  {
+    "name": "<code>Math.LOG2E</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/LOG2E",
+    "syntax": ""
+  }, 
+  {
+    "name": "<code>Math.LOG10E</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/LOG10E",
+    "syntax": ""
+  }, 
+  {
+    "name": "<code>Math.PI</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI",
+    "syntax": ""
+  }, 
+  {
+    "name": "<code>Math.SQRT1_2</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/SQRT1_2",
+    "syntax": ""
+  }, 
+  {
+    "name": "<code>Math.SQRT2</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/SQRT2",
+    "syntax": ""
+  }, 
+  {
+    "name": "<code>Math.abs(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs",
+    "syntax": "Math.abs(<var>x</var>)"
+  }, 
+  {
+    "name": "<code>Math.acos(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/acos",
+    "syntax": "<code>Math.acos(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.acosh(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/acosh",
+    "syntax": "<code>Math.acosh(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.asin(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/asin",
+    "syntax": "<code>Math.asin(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.asinh(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/asinh",
+    "syntax": "<code>Math.asinh(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.atan(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/atan",
+    "syntax": "<code>Math.atan(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.atanh(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/atanh",
+    "syntax": "<code>Math.atanh(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.atan2(y, x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/atan2",
+    "syntax": "<code>Math.atan2(<var>y</var>, <var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.cbrt(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/cbrt",
+    "syntax": "<code>Math.cbrt(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.ceil(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil",
+    "syntax": "<code>Math.ceil(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.clz32(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/clz32",
+    "syntax": "<code>Math.clz32(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.cos(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/cos",
+    "syntax": "<code>Math.cos(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.cosh(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/cosh",
+    "syntax": "<code>Math.cosh(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.exp(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/exp",
+    "syntax": "<code>Math.exp(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.expm1(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/expm1",
+    "syntax": "<code>Math.expm1(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.floor(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor",
+    "syntax": "<code>Math.floor(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.fround(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/fround",
+    "syntax": "var <em>singleFloat</em> = Math.fround(<em>doubleFloat</em>);"
+  }, 
+  {
+    "name": "<code>Math.hypot([x[, y[, …]]])</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/hypot",
+    "syntax": "<code>Math.hypot([<var>value1</var>[, <var>value2</var>[, ...]]])</code>"
+  }, 
+  {
+    "name": "<code>Math.imul(x, y)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/imul",
+    "syntax": "var <em>product</em> = Math.imul(<em>a</em>, <em>b</em>);"
+  }, 
+  {
+    "name": "<code>Math.log(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log",
+    "syntax": "<code>Math.log(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.log1p(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log1p",
+    "syntax": "<code>Math.log1p(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.log10(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log10",
+    "syntax": "Math.log10(<var>x</var>)"
+  }, 
+  {
+    "name": "<code>Math.log2(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log2",
+    "syntax": "<code>Math.log2(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.max([x[, y[, …]]])</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max",
+    "syntax": "<code>Math.max([<var>value1</var>[, <var>value2</var>[, ...]]])</code>"
+  }, 
+  {
+    "name": "<code>Math.min([x[, y[, …]]])</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/min",
+    "syntax": "<code>Math.min([<var>value1</var>[, <var>value2</var>[, ...]]])</code>"
+  }, 
+  {
+    "name": "<code>Math.pow(x, y)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow",
+    "syntax": "<code>Math.pow(<var>base</var>, <var>exponent</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.random()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random",
+    "syntax": "Math.random()"
+  }, 
+  {
+    "name": "<code>Math.round(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round",
+    "syntax": "Math.round(<var>x</var>)"
+  }, 
+  {
+    "name": "<code>Math.sign(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sign",
+    "syntax": "<code>Math.sign(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.sin(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sin",
+    "syntax": "<code>Math.sin(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.sinh(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sinh",
+    "syntax": "<code>Math.sinh(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.sqrt(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt",
+    "syntax": "<code>Math.sqrt(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.tan(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/tan",
+    "syntax": "<code>Math.tan(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.tanh(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/tanh",
+    "syntax": "<code>Math.tanh(<var>x</var>)</code>"
+  }, 
+  {
+    "name": "<code>Math.trunc(x)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/trunc",
+    "syntax": "Math.trunc(<var>x</var>)\n"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "<code>Intl.Collator</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator",
+    "syntax": "<code>new Intl.Collator([<var>locales</var>[, <var>options</var>]])\nIntl.Collator.call(<var>this</var>[, <var>locales</var>[, <var>options</var>]])</code>"
+  },
+  {
+    "name": "<code>Intl.DateTimeFormat</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat",
+    "syntax": "<code>new Intl.DateTimeFormat([<var>locales</var>[, <var>options</var>]])\nIntl.DateTimeFormat.call(<var>this</var>[, <var>locales</var>[, <var>options</var>]])</code>"
+  },
+  {
+    "name": "<code>Intl.NumberFormat</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat",
+    "syntax": "<code>new Intl.NumberFormat([<var>locales</var>[, <var>options</var>]])\nIntl.NumberFormat.call(<var>this</var>[, <var>locales</var>[, <var>options</var>]])\n</code>"
+  },
+  {
+    "name": "<code>Intl.PluralRules</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/PluralRules",
+    "syntax": "<code>new Intl.PluralRules([<var>locales</var>[, <var>options</var>]])\nIntl.PluralRules.call(<var>this</var>[, <var>locales</var>[, <var>options</var>]])\n</code>"
+  },
+  {
+    "name": "<code>Intl.getCanonicalLocales()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/getCanonicalLocales",
+    "syntax": "Intl.getCanonicalLocales(locales)"
+  }
+]

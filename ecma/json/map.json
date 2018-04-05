@@ -1,0 +1,67 @@
+[
+  {
+    "name": "<code>get Map[@@species]</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/@@species",
+    "syntax": "Map[Symbol.species]\n"
+  }, 
+  {
+    "name": "<code>Map.prototype</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/prototype",
+    "syntax": ""
+  }, 
+  {
+    "name": "<code>Map.prototype.size</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/size",
+    "syntax": ""
+  }, 
+  {
+    "name": "<code>Map.prototype.clear()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/clear",
+    "syntax": "<code><em>myMap</em>.clear();</code>"
+  }, 
+  {
+    "name": "<code>Map.prototype.delete(key)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/delete",
+    "syntax": ""
+  }, 
+  {
+    "name": "<code>Map.prototype.entries()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/entries",
+    "syntax": "<code><em>myMap</em>.entries()</code>"
+  }, 
+  {
+    "name": "<code>Map.prototype.forEach(callbackFn[, thisArg])</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/forEach",
+    "syntax": "<code><em>myMap</em>.forEach(<em>callback</em>[, <em>thisArg</em>])</code>"
+  }, 
+  {
+    "name": "<code>Map.prototype.get(key)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get",
+    "syntax": "<code><em>myMap</em>.get(key);</code>"
+  }, 
+  {
+    "name": "<code>Map.prototype.has(key)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/has",
+    "syntax": "<code><em>myMap</em>.has(key);</code>"
+  }, 
+  {
+    "name": "<code>Map.prototype.keys()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/keys",
+    "syntax": "<code><em>myMap</em>.keys()</code>"
+  }, 
+  {
+    "name": "<code>Map.prototype.set(key, value)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/set",
+    "syntax": "<code><em>myMap</em>.set(key, value);</code>"
+  }, 
+  {
+    "name": "<code>Map.prototype.values()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/values",
+    "syntax": "<code><em>myMap</em>.values()</code>"
+  }, 
+  {
+    "name": "<code>Map.prototype[@@iterator]()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/@@iterator",
+    "syntax": "<code><em>myMap</em>[Symbol.iterator]</code>"
+  }
+]

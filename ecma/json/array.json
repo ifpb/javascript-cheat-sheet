@@ -1,0 +1,192 @@
+[
+  {
+    "name": "<code>get Array[@@species]</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/@@species",
+    "syntax": "Array[Symbol.species]\n"
+  },
+  {
+    "name": "<code>Array.prototype</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Array.from()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Array.isArray()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray",
+    "syntax": "Array.isArray(<var>obj</var>)"
+  },
+  {
+    "name": "<code>Array.of()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of",
+    "syntax": "Array.of(<var>element0</var>[, <var>element1</var>[, ...[, <var>elementN</var>]]])"
+  },
+  {
+    "name": "<code>Array.prototype.length</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length",
+    "syntax": ""
+  },
+  {
+    "name": "<code>Array.prototype[@@unscopables]</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/@@unscopables",
+    "syntax": "<var>arr</var>[Symbol.unscopables]"
+  },
+  {
+    "name": "<code>Array.prototype.copyWithin()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin",
+    "syntax": "<var>arr</var>.copyWithin(<var>target</var>)\n<var>arr</var>.copyWithin(<var>target</var>, <var>start</var>)\n<var>arr</var>.copyWithin(<var>target</var>, <var>start</var>, <var>end</var>)\n"
+  },
+  {
+    "name": "<code>Array.prototype.fill()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill",
+    "syntax": "<var>arr</var>.fill(<var>value[</var>, <var>start[<var>, <var>end]]</var>)</var></var>\n"
+  },
+  {
+    "name": "<code>Array.prototype.pop()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop",
+    "syntax": "<var>arr</var>.pop()"
+  },
+  {
+    "name": "<code>Array.prototype.push()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push",
+    "syntax": "<var>arr</var>.push(<var>element1</var>[, ...[, <var>elementN</var>]])"
+  },
+  {
+    "name": "<code>Array.prototype.reverse()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse",
+    "syntax": "<var>a</var>.reverse()"
+  },
+  {
+    "name": "<code>Array.prototype.shift()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift",
+    "syntax": "<var>arr</var>.shift()"
+  },
+  {
+    "name": "<code>Array.prototype.sort()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort",
+    "syntax": "<var>arr</var>.sort(<var>[compareFunction]</var>)\n"
+  },
+  {
+    "name": "<code>Array.prototype.splice()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice",
+    "syntax": "<var>array</var>.splice(<var>start[</var>, <var>deleteCount[</var>, <var>item1[</var>, <var>item2[</var>, <em>...]]]]</em>)\n"
+  },
+  {
+    "name": "<code>Array.prototype.unshift()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift",
+    "syntax": "<var>arr</var>.unshift(<var>element1</var>[, ...[, <var>elementN</var>]])"
+  },
+  {
+    "name": "<code>Array.prototype.concat()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
+    "syntax": "var <var>new_array</var> = <var>old_array</var>.concat(<var>value1</var>[, <var>value2</var>[, ...[, <var>valueN</var>]]])"
+  },
+  {
+    "name": "<code>Array.prototype.includes()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes",
+    "syntax": "<var>arr</var>.includes(<var>searchElement[</var>, <var>fromIndex]</var>)\n"
+  },
+  {
+    "name": "<code>Array.prototype.indexOf()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf",
+    "syntax": "<var>arr</var>.indexOf(<var>searchElement[</var>, <var>fromIndex]</var>)"
+  },
+  {
+    "name": "<code>Array.prototype.join()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join",
+    "syntax": "<var>arr</var>.join(<em>[</em><var>separator]</var>)"
+  },
+  {
+    "name": "<code>Array.prototype.lastIndexOf()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf",
+    "syntax": "<var>arr</var>.lastIndexOf(<var>searchElement</var>)\n<var>arr</var>.lastIndexOf(<var>searchElement</var>, <var>fromIndex</var>)\n"
+  },
+  {
+    "name": "<code>Array.prototype.slice()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice",
+    "syntax": "<var>arr</var>.slice(<em>[</em><var>begin[</var>, <var>end]]</var>)\n"
+  },
+  {
+    "name": "<code>Array.prototype.toSource()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSource",
+    "syntax": "<var>arr</var>.toSource()"
+  },
+  {
+    "name": "<code>Array.prototype.toString()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString",
+    "syntax": "<var>arr</var>.toString()"
+  },
+  {
+    "name": "<code>Array.prototype.toLocaleString()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toLocaleString",
+    "syntax": "<var>arr</var>.toLocaleString([<var>locales[</var>, <var>options]]</var>);\n"
+  },
+  {
+    "name": "<code>Array.prototype.entries()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries",
+    "syntax": "<var>a</var>.entries()"
+  },
+  {
+    "name": "<code>Array.prototype.every()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every",
+    "syntax": "<var>arr</var>.every(<var>callback</var>[, <var>thisArg</var>])"
+  },
+  {
+    "name": "<code>Array.prototype.filter()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
+    "syntax": "<var>var newArray = arr</var>.filter(<var>callback</var>[, <var>thisArg</var>])"
+  },
+  {
+    "name": "<code>Array.prototype.find()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find",
+    "syntax": "<var>arr</var>.find(<var>callback</var>[, <var>thisArg</var>])"
+  },
+  {
+    "name": "<code>Array.prototype.findIndex()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex",
+    "syntax": "<var>arr</var>.findIndex(<var>callback</var>[, <var>thisArg</var>])"
+  },
+  {
+    "name": "<code>Array.prototype.forEach()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach",
+    "syntax": "<var>arr</var>.forEach(function <var>callback(currentValue[, index[, array]]) {\n    //your iterator\n}</var>[, <var>thisArg</var>]);"
+  },
+  {
+    "name": "<code>Array.prototype.keys()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/keys",
+    "syntax": "<var>arr</var>.keys()"
+  },
+  {
+    "name": "<code>Array.prototype.map()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
+    "syntax": "<var>var new_array = arr</var>.map(function <var>callback(currentValue[, index[, array]]) {\n    // Return element for new_array\n}</var>[, <var>thisArg</var>])"
+  },
+  {
+    "name": "<code>Array.prototype.reduce()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce",
+    "syntax": "<var>arr</var>.reduce(<var>callback[, </var><var>initialValue]</var>)"
+  },
+  {
+    "name": "<code>Array.prototype.reduceRight()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight",
+    "syntax": "<var>arr</var>.reduceRight(<var>callback</var>[, <var>initialValue</var>])"
+  },
+  {
+    "name": "<code>Array.prototype.some()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some",
+    "syntax": "<var>arr</var>.some(<var>callback</var>[, <var>thisArg</var>])"
+  },
+  {
+    "name": "<code>Array.prototype.values()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values",
+    "syntax": "<var>arr</var>.values()"
+  },
+  {
+    "name": "<code>Array.prototype[@@iterator]()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/@@iterator",
+    "syntax": "<code><var>arr</var>[Symbol.iterator]()</code>"
+  }
+]

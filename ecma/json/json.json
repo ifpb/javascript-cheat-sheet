@@ -1,0 +1,12 @@
+[
+  {
+    "name": "<code>JSON.parse()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse",
+    "syntax": "JSON.parse(<var>text</var>[, <var>reviver</var>])"
+  },
+  {
+    "name": "<code>JSON.stringify()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify",
+    "syntax": "<code>JSON.stringify(<var>value</var>[, <var>replacer</var>[, <var>space</var>]])</code>"
+  }
+]

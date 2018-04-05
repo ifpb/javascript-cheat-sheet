@@ -1,0 +1,262 @@
+[
+  {
+    "name": "<code>Date.prototype</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/prototype",
+    "syntax": ""
+  }, 
+  {
+    "name": "<code>Date.now()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now",
+    "syntax": "<code>var timeInMs = Date.now();</code>"
+  }, 
+  {
+    "name": "<code>Date.parse()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse",
+    "syntax": ""
+  }, 
+  {
+    "name": "<code>Date.UTC()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/UTC",
+    "syntax": "Date.UTC(<var>year</var>, <var>month</var>[, <var>day</var>[, <var>hour</var>[, <var>minute</var>[, <var>second</var>[, <var>millisecond</var>]]]]])"
+  }, 
+  {
+    "name": "<code>Date.prototype.getDate()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate",
+    "syntax": "<code><var>dateObj</var>.getDate()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getDay()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay",
+    "syntax": "<code><var>dateObj</var>.getDay()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getFullYear()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear",
+    "syntax": "<code><var>dateObj</var>.getFullYear()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getHours()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getHours",
+    "syntax": "<code><var>dateObj</var>.getHours()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getMilliseconds()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMilliseconds",
+    "syntax": "<code><var>dateObj</var>.getMilliseconds()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getMinutes()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMinutes",
+    "syntax": "<code><var>dateObj</var>.getMinutes()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getMonth()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMonth",
+    "syntax": "<code><var>dateObj</var>.getMonth()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getSeconds()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getSeconds",
+    "syntax": "<code><var>dateObj</var>.getSeconds()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getTime()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime",
+    "syntax": "<code><var>dateObj</var>.getTime()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getTimezoneOffset()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset",
+    "syntax": "<var>dateObj</var>.getTimezoneOffset()"
+  }, 
+  {
+    "name": "<code>Date.prototype.getUTCDate()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCDate",
+    "syntax": "<code><var>dateObj</var>.getUTCDate()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getUTCDay()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCDay",
+    "syntax": "<code><var>dateObj</var>.getUTCDay()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getUTCFullYear()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCFullYear",
+    "syntax": "<code><var>dateObj</var>.getUTCFullYear()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getUTCHours()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCHours",
+    "syntax": "<code><var>dateObj</var>.getUTCHours()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getUTCMilliseconds()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMilliseconds",
+    "syntax": "<code><var>dateObj</var>.getUTCMilliseconds()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getUTCMinutes()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMinutes",
+    "syntax": "<code><var>dateObj</var>.getUTCMinutes()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getUTCMonth()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMonth",
+    "syntax": "<code><var>dateObj</var>.getUTCMonth()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getUTCSeconds()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCSeconds",
+    "syntax": "<code><var>dateObj</var>.getUTCSeconds()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.getYear()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getYear",
+    "syntax": "<code><var>dateObj</var>.getYear()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setDate()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setDate",
+    "syntax": "<code><var>dateObj</var>.setDate(<var>dayValue</var>)</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setFullYear()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setFullYear",
+    "syntax": "<code><var>dateObj</var>.setFullYear(<var>yearValue</var>[, <var>monthValue</var>[, <var>dayValue</var>]])</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setHours()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setHours",
+    "syntax": "<code><var>dateObj</var>.setHours(<var>hoursValue</var>[, <var>minutesValue</var>[, <var>secondsValue</var>[, <var>msValue</var>]]])</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setMilliseconds()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setMilliseconds",
+    "syntax": "<code><var>dateObj</var>.setMilliseconds(<var>millisecondsValue</var>)</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setMinutes()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setMinutes",
+    "syntax": "<code><var>dateObj</var>.setMinutes(<var>minutesValue</var>[, <var>secondsValue</var>[, <var>msValue</var>]])</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setMonth()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setMonth",
+    "syntax": "<code><var>dateObj</var>.setMonth(<var>monthValue</var>[, <var>dayValue</var>])</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setSeconds()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setSeconds",
+    "syntax": "<code><var>dateObj</var>.setSeconds(<var>secondsValue</var>[, <var>msValue</var>])</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setTime()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setTime",
+    "syntax": "<code><var>dateObj</var>.setTime(<var>timeValue</var>)</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setUTCDate()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCDate",
+    "syntax": "<code><var>dateObj</var>.setUTCDate(<var>dayValue</var>)</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setUTCFullYear()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCFullYear",
+    "syntax": "<code><var>dateObj</var>.setUTCFullYear(<var>yearValue</var>[, <var>monthValue</var>[, <var>dayValue</var>]])</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setUTCHours()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCHours",
+    "syntax": "<code><var>dateObj</var>.setUTCHours(<var>hoursValue</var>[, <var>minutesValue</var>[, <var>secondsValue</var>[, <var>msValue</var>]]])</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setUTCMilliseconds()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCMilliseconds",
+    "syntax": "<code><var>dateObj</var>.setUTCMilliseconds(<var>millisecondsValue</var>)</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setUTCMinutes()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCMinutes",
+    "syntax": "<code><var>dateObj</var>.setUTCMinutes(<var>minutesValue</var>[, <var>secondsValue</var>[, <var>msValue</var>]])</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setUTCMonth()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCMonth",
+    "syntax": "<code><var>dateObj</var>.setUTCMonth(<var>monthValue</var>[, <var>dayValue</var>])</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setUTCSeconds()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCSeconds",
+    "syntax": "<code><var>dateObj</var>.setUTCSeconds(<var>secondsValue</var>[, <var>msValue</var>])</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.setYear()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setYear",
+    "syntax": "<code><var>dateObj</var>.setYear(<var>yearValue</var>)</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.toDateString()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toDateString",
+    "syntax": "<code><var>dateObj</var>.toDateString()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.toISOString()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString",
+    "syntax": "<code><var>dateObj</var>.toISOString()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.toJSON()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toJSON",
+    "syntax": "<code><var>dateObj</var>.toJSON()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.toGMTString()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toGMTString",
+    "syntax": "<code><var>dateObj</var>.toGMTString()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.toLocaleDateString()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString",
+    "syntax": "<var>dateObj</var>.toLocaleDateString([<var>locales</var> [, <var>options</var>]])"
+  }, 
+  {
+    "name": "<code>Date.prototype.toLocaleFormat()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat",
+    "syntax": "<var>dateObj</var>.toLocaleFormat(<var>formatString</var>)"
+  }, 
+  {
+    "name": "<code>Date.prototype.toLocaleString()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString",
+    "syntax": "<var>dateObj</var>.toLocaleString([<var>locales</var>[, <var>options</var>]])"
+  }, 
+  {
+    "name": "<code>Date.prototype.toLocaleTimeString()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString",
+    "syntax": "<code><var>dateObj</var>.toLocaleTimeString([<var>locales</var>[, <var>options</var>]])</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.toSource()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toSource",
+    "syntax": "<var>dateObj</var>.toSource()\nDate.toSource()"
+  }, 
+  {
+    "name": "<code>Date.prototype.toString()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toString",
+    "syntax": "<var>dateObj</var>.toString()"
+  }, 
+  {
+    "name": "<code>Date.prototype.toTimeString()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toTimeString",
+    "syntax": "<code><var>dateObj</var>.toTimeString()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.toUTCString()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toUTCString",
+    "syntax": "<code><var>dateObj</var>.toUTCString()</code>"
+  }, 
+  {
+    "name": "<code>Date.prototype.valueOf()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/valueOf",
+    "syntax": "<code><var>dateObj</var>.valueOf()</code>"
+  }
+]
