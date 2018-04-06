@@ -2,116 +2,152 @@
   {
     "name": "<code>Number.EPSILON</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON",
-    "syntax": ""
+    "group": "Number",
+    "type": "Properties"
   },
   {
     "name": "<code>Number.MAX_SAFE_INTEGER</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER",
-    "syntax": ""
+    "group": "Number",
+    "type": "Properties"
   },
   {
     "name": "<code>Number.MAX_VALUE</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_VALUE",
-    "syntax": ""
+    "group": "Number",
+    "type": "Properties"
   },
   {
     "name": "<code>Number.MIN_SAFE_INTEGER</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MIN_SAFE_INTEGER",
-    "syntax": ""
+    "group": "Number",
+    "type": "Properties"
   },
   {
     "name": "<code>Number.MIN_VALUE</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MIN_VALUE",
-    "syntax": ""
+    "group": "Number",
+    "type": "Properties"
   },
   {
     "name": "<code>Number.NaN</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/NaN",
-    "syntax": ""
+    "group": "Number",
+    "type": "Properties"
   },
   {
     "name": "<code>Number.NEGATIVE_INFINITY</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/NEGATIVE_INFINITY",
-    "syntax": ""
+    "group": "Number",
+    "type": "Properties"
   },
   {
     "name": "<code>Number.POSITIVE_INFINITY</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/POSITIVE_INFINITY",
-    "syntax": ""
+    "group": "Number",
+    "type": "Properties"
   },
   {
     "name": "<code>Number.prototype</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/prototype",
-    "syntax": ""
+    "group": "Number",
+    "type": "Properties"
   },
   {
     "name": "<code>Number.isNaN()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN",
-    "syntax": "<code>Number.isNaN(v<var>alue</var>)</code>"
+    "syntax": "<code>Number.isNaN(v<var>alue</var>)</code>",
+    "group": "Number",
+    "type": "Methods"
   },
   {
     "name": "<code>Number.isFinite()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isFinite",
-    "syntax": "Number.isFinite(v<var>alue</var>)"
+    "syntax": "<code>Number.isFinite(v<var>alue</var>)</code>",
+    "group": "Number",
+    "type": "Methods"
   },
   {
     "name": "<code>Number.isInteger()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger",
-    "syntax": "Number.isInteger(v<var>alue</var>)"
+    "syntax": "<code>Number.isInteger(v<var>alue</var>)</code>",
+    "group": "Number",
+    "type": "Methods"
   },
   {
     "name": "<code>Number.isSafeInteger()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isSafeInteger",
-    "syntax": "<code>Number.isSafeInteger(<var>testValue</var>)</code>\n"
+    "syntax": "<code>Number.isSafeInteger(<var>testValue</var>)</code>\n",
+    "group": "Number",
+    "type": "Methods"
   },
   {
     "name": "<code>Number.toInteger()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toInteger",
-    "syntax": "Number.toInteger(<var>number</var>)"
+    "syntax": "<code>Number.toInteger(<var>number</var>)</code>",
+    "group": "Number",
+    "type": "Methods"
   },
   {
     "name": "<code>Number.parseFloat()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseFloat",
-    "syntax": "<code>Number.parseFloat(<var>string</var>)</code>"
+    "syntax": "<code>Number.parseFloat(<var>string</var>)</code>",
+    "group": "Number",
+    "type": "Methods"
   },
   {
     "name": "<code>Number.parseInt()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt",
-    "syntax": "Number.parseInt(<var>string,</var>[ <var>radix </var>])"
+    "syntax": "<code>Number.parseInt(<var>string,</var>[ <var>radix </var>])</code>",
+    "group": "Number",
+    "type": "Methods"
+  },
+  {
+    "name": "Number.prototype.constructor",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/prototype",
+    "syntax": "<code><var>num</var> = new Number(value)</code>",
+    "group": "Number instances"
   },
   {
     "name": "<code>Number.prototype.toExponential()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toExponential",
-    "syntax": "<code><var>numObj</var>.toExponential([<var>fractionDigits</var>])</code>"
+    "syntax": "<code><var>num</var>.toExponential([<var>fractionDigits</var>])</code>",
+    "group": "Number instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Number.prototype.toFixed()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed",
-    "syntax": "<code><var>numObj</var>.toFixed([<var>digits</var>])</code>"
+    "syntax": "<code><var>num</var>.toFixed([<var>digits</var>])</code>",
+    "group": "Number instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Number.prototype.toLocaleString()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString",
-    "syntax": "<code><em>numObj</em>.toLocaleString(</code><code>[locales [, options]])</code>"
+    "syntax": "<code><em>num</em>.toLocaleString(</code><code>[locales [, options]])</code>",
+    "group": "Number instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Number.prototype.toPrecision()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toPrecision",
-    "syntax": "<var>numObj</var>.toPrecision([<var>precision</var>])"
-  },
-  {
-    "name": "<code>Number.prototype.toSource()</code>",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toSource",
-    "syntax": "<var>numObj</var>.toSource()\nNumber.toSource()"
+    "syntax": "<code><var>num</var>.toPrecision([<var>precision</var>])</code>",
+    "group": "Number instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Number.prototype.toString()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString",
-    "syntax": "<code><var>numObj</var>.toString([<var>radix</var>])</code>"
+    "syntax": "<code><var>num</var>.toString([<var>radix</var>])</code>",
+    "group": "Number instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Number.prototype.valueOf()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/valueOf",
-    "syntax": "<code><var>numObj</var>.valueOf()</code>"
+    "syntax": "<code><var>num</var>.valueOf()</code>",
+    "group": "Number instances",
+    "type": "Methods"
   }
 ]

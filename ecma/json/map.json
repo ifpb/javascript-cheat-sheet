@@ -2,66 +2,97 @@
   {
     "name": "<code>get Map[@@species]</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/@@species",
-    "syntax": "Map[Symbol.species]\n"
+    "syntax": "<code>Map[Symbol.species]</code>",
+    "group": "Map",
+    "type": "Properties"
   }, 
   {
     "name": "<code>Map.prototype</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/prototype",
-    "syntax": ""
+    "group": "Map",
+    "type": "Properties"
+  },
+  {
+    "name": "Map.prototype.constructor",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/prototype",
+    "syntax": "<code><var>map</var> = new Map([iterable])</code>",
+    "group": "Map instances"
   }, 
   {
     "name": "<code>Map.prototype.size</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/size",
-    "syntax": ""
+    "syntax": "<code><var>map</var>.size</code>",
+    "group": "Map instances",
+    "type": "Properties"
   }, 
   {
     "name": "<code>Map.prototype.clear()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/clear",
-    "syntax": "<code><em>myMap</em>.clear();</code>"
+    "syntax": "<code><var>map</var>.clear()</code>",
+    "group": "Map instances",
+    "type": "Methods"
   }, 
   {
     "name": "<code>Map.prototype.delete(key)</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/delete",
-    "syntax": ""
+    "syntax": "<code><var>map</var>.delete(key)</code>",
+    "group": "Map instances",
+    "type": "Methods"
   }, 
   {
     "name": "<code>Map.prototype.entries()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/entries",
-    "syntax": "<code><em>myMap</em>.entries()</code>"
+    "syntax": "<code><var>map</var>.entries()</code>",
+    "group": "Map instances",
+    "type": "Methods"
   }, 
   {
     "name": "<code>Map.prototype.forEach(callbackFn[, thisArg])</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/forEach",
-    "syntax": "<code><em>myMap</em>.forEach(<em>callback</em>[, <em>thisArg</em>])</code>"
+    "syntax": "<code><var>map</var>.forEach(<em>callback</em>[, <em>thisArg</em>])</code>",
+    "group": "Map instances",
+    "type": "Methods"
   }, 
   {
     "name": "<code>Map.prototype.get(key)</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get",
-    "syntax": "<code><em>myMap</em>.get(key);</code>"
+    "syntax": "<code><var>map</var>.get(key);</code>",
+    "group": "Map instances",
+    "type": "Methods"
   }, 
   {
     "name": "<code>Map.prototype.has(key)</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/has",
-    "syntax": "<code><em>myMap</em>.has(key);</code>"
+    "syntax": "<code><var>map</var>.has(key);</code>",
+    "group": "Map instances",
+    "type": "Methods"
   }, 
   {
     "name": "<code>Map.prototype.keys()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/keys",
-    "syntax": "<code><em>myMap</em>.keys()</code>"
+    "syntax": "<code><var>map</var>.keys()</code>",
+    "group": "Map instances",
+    "type": "Methods"
   }, 
   {
     "name": "<code>Map.prototype.set(key, value)</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/set",
-    "syntax": "<code><em>myMap</em>.set(key, value);</code>"
+    "syntax": "<code><var>map</var>.set(key, value);</code>",
+    "group": "Map instances",
+    "type": "Methods"
   }, 
   {
     "name": "<code>Map.prototype.values()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/values",
-    "syntax": "<code><em>myMap</em>.values()</code>"
+    "syntax": "<code><var>map</var>.values()</code>",
+    "group": "Map instances",
+    "type": "Methods"
   }, 
   {
     "name": "<code>Map.prototype[@@iterator]()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/@@iterator",
-    "syntax": "<code><em>myMap</em>[Symbol.iterator]</code>"
+    "syntax": "<code><var>map</var>[Symbol.iterator]</code>",
+    "group": "Map instances",
+    "type": "Methods"
   }
 ]

@@ -1,0 +1,132 @@
+[
+  {
+    "name": "<code>Block</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/Block",
+    "group": "Control flow"
+  },
+  {
+    "name": "<code>break</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break",
+    "group": "Control flow"
+  },
+  {
+    "name": "<code>continue</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue",
+    "group": "Control flow"
+  },
+  {
+    "name": "<code>Empty</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/Empty",
+    "group": "Control flow"
+  },
+  {
+    "name": "<code>if...else</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else",
+    "group": "Control flow"
+  },
+  {
+    "name": "<code>switch</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch",
+    "group": "Control flow"
+  },
+  {
+    "name": "<code>throw</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw",
+    "group": "Control flow"
+  },
+  {
+    "name": "<code>try...catch</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch",
+    "group": "Control flow"
+  },
+  {
+    "name": "<code>var</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var",
+    "group": "Declarations"
+  },
+  {
+    "name": "<code>let</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let",
+    "group": "Declarations"
+  },
+  {
+    "name": "<code>const</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const",
+    "group": "Declarations"
+  },
+  {
+    "name": "<code>function</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function",
+    "group": "Functions and classes"
+  },
+  {
+    "name": "<code>function*</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*",
+    "group": "Functions and classes"
+  },
+  {
+    "name": "<code>async function</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function",
+    "group": "Functions and classes"
+  },
+  {
+    "name": "<code>return</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return",
+    "group": "Functions and classes"
+  },
+  {
+    "name": "<code>class</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class",
+    "group": "Functions and classes"
+  },
+  {
+    "name": "<code>do...while</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while",
+    "group": "Iterations"
+  },
+  {
+    "name": "<code>for</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for",
+    "group": "Iterations"
+  },
+  {
+    "name": "<code>for...in</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in",
+    "group": "Iterations"
+  },
+  {
+    "name": "<code>for...of</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of",
+    "group": "Iterations"
+  },
+  {
+    "name": "<code>while</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while",
+    "group": "Iterations"
+  },
+  {
+    "name": "<code>debugger</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger",
+    "group": "Others"
+  },
+  {
+    "name": "<code>export</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export",
+    "group": "Others"
+  },
+  {
+    "name": "<code>import</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import",
+    "group": "Others"
+  },
+  {
+    "name": "<code>label</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label",
+    "group": "Others"
+  },
+  {
+    "name": "<code>with</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/with",
+    "group": "Others"
+  }
+]

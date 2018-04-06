@@ -2,61 +2,90 @@
   {
     "name": "<code>get Set[@@species]</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/@@species",
-    "syntax": "Set[Symbol.species]\n"
+    "syntax": "<code>Set[Symbol.species]</code>",
+    "group": "Set",
+    "type": "Properties"
   },
   {
     "name": "<code>Set.prototype</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/prototype",
-    "syntax": ""
+    "group": "Set",
+    "type": "Properties"
+  },
+  {
+    "name": "Set.prototype.constructor",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/prototype",
+    "syntax": "<code><var>set</var> = new Set([iterable])</code>",
+    "group": "Set instances"
   },
   {
     "name": "<code>Set.prototype.size</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/size",
-    "syntax": ""
+    "syntax": "<code><var>set</var>.size</code>",
+    "group": "Set instances",
+    "type": "Properties"
   },
   {
     "name": "<code>Set.prototype.add(value)</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/add",
-    "syntax": "<code><em>mySet</em>.add(value);</code>"
+    "syntax": "<code><em>set</em>.add(value);</code>",
+    "group": "Set instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Set.prototype.clear()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/clear",
-    "syntax": "<code><em>mySet</em>.clear();</code>"
+    "syntax": "<code><em>set</em>.clear();</code>",
+    "group": "Set instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Set.prototype.delete(value)</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/delete",
-    "syntax": "<code><em>mySet</em>.delete(value);</code>"
+    "syntax": "<code><em>set</em>.delete(value);</code>",
+    "group": "Set instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Set.prototype.entries()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/entries",
-    "syntax": "<code><em>mySet</em>.entries()</code>"
+    "syntax": "<code><em>set</em>.entries()</code>",
+    "group": "Set instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Set.prototype.forEach(callbackFn[, thisArg])</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/forEach",
-    "syntax": "<code><em>mySet</em>.forEach(</code>function <var>callback(value1, value2, Set) { \n&nbsp;   //your iterator\n}</var>[, <var>thisArg</var>]<code>)</code>"
+    "syntax": "<code><em>set</em>.forEach(<var>callback</var>[, <var>thisArg</var>])</code>",
+    "group": "Set instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Set.prototype.has(value)</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/has",
-    "syntax": "<code><em>mySet</em>.has(value);</code>"
+    "syntax": "<code><em>set</em>.has(value);</code>",
+    "group": "Set instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Set.prototype.keys()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/keys",
-    "syntax": "<code><em>mySet</em>.values();\n</code>"
+    "syntax": "<code><em>set</em>.values();\n</code>",
+    "group": "Set instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Set.prototype.values()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/values",
-    "syntax": "<code><em>mySet</em>.values();\n</code>"
+    "syntax": "<code><em>set</em>.values();\n</code>",
+    "group": "Set instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Set.prototype[@@iterator]()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/@@iterator",
-    "syntax": "<code><em>mySet</em>[Symbol.iterator]</code>"
+    "syntax": "<code><em>set</em>[Symbol.iterator]</code>",
+    "group": "Set instances",
+    "type": "Methods"
   }
 ]

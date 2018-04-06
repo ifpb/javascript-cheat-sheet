@@ -2,201 +2,275 @@
   {
     "name": "<code>Object.prototype</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype",
-    "syntax": ""
+    "group": "Object",
+    "type": "Properties"
   },
   {
     "name": "<code>Object.assign()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign",
-    "syntax": "Object.assign(<var>target</var>, ...<var>sources</var>)"
+    "syntax": "<code>Object.assign(<var>target</var>, ...<var>sources</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.create()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create",
-    "syntax": "Object.create(<var>proto</var>[, <var>propertiesObject</var>])"
+    "syntax": "<code>Object.create(<var>proto</var>[, <var>propertiesObject</var>])</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.defineProperty()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty",
-    "syntax": "<code>Object.defineProperty(<var>obj</var>, <var>prop</var>, <var>descriptor</var>)</code>"
+    "syntax": "<code>Object.defineProperty(<var>obj</var>, <var>prop</var>, <var>descriptor</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.defineProperties()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties",
-    "syntax": "<code>Object.defineProperties(<var>obj</var>, <var>props</var>)</code>"
+    "syntax": "<code>Object.defineProperties(<var>obj</var>, <var>props</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.entries()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries",
-    "syntax": "Object.entries(<var>obj</var>)"
+    "syntax": "<code>Object.entries(<var>obj</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.freeze()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze",
-    "syntax": "<code>Object.freeze(<var>obj</var>)</code>"
+    "syntax": "<code>Object.freeze(<var>obj</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.getOwnPropertyDescriptor()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor",
-    "syntax": "<code>Object.getOwnPropertyDescriptor(<var>obj</var>, <var>prop</var>)</code>"
+    "syntax": "<code>Object.getOwnPropertyDescriptor(<var>obj</var>, <var>prop</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.getOwnPropertyDescriptors()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptors",
-    "syntax": "Object.getOwnPropertyDescriptors(<var>obj</var>)"
+    "syntax": "<code>Object.getOwnPropertyDescriptors(<var>obj</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.getOwnPropertyNames()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames",
-    "syntax": "Object.getOwnPropertyNames(<var>obj</var>)"
+    "syntax": "<code>Object.getOwnPropertyNames(<var>obj</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.getOwnPropertySymbols()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertySymbols",
-    "syntax": "<code>Object.getOwnPropertySymbols(<var>obj</var>)</code>"
+    "syntax": "<code>Object.getOwnPropertySymbols(<var>obj</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.getPrototypeOf()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf",
-    "syntax": "<code>Object.getPrototypeOf(<var>obj</var>)</code>"
+    "syntax": "<code>Object.getPrototypeOf(<var>obj</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.is()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is",
-    "syntax": "<code>Object.is(<var>value1</var>, <var>value2</var>);</code>"
+    "syntax": "<code>Object.is(<var>value1</var>, <var>value2</var>);</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.isExtensible()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isExtensible",
-    "syntax": "<code>Object.isExtensible(<var>obj</var>)</code>"
+    "syntax": "<code>Object.isExtensible(<var>obj</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.isFrozen()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isFrozen",
-    "syntax": "<code>Object.isFrozen(<var>obj</var>)</code>"
+    "syntax": "<code>Object.isFrozen(<var>obj</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.isSealed()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isSealed",
-    "syntax": "<code>Object.isSealed(<var>obj</var>)</code>"
+    "syntax": "<code>Object.isSealed(<var>obj</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.keys()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys",
-    "syntax": "<code>Object.keys(<var>obj</var>)</code>"
+    "syntax": "<code>Object.keys(<var>obj</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.preventExtensions()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions",
-    "syntax": "<code>Object.preventExtensions(<var>obj</var>)</code>"
+    "syntax": "<code>Object.preventExtensions(<var>obj</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.seal()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal",
-    "syntax": "<code>Object.seal(<var>obj</var>)</code>"
+    "syntax": "<code>Object.seal(<var>obj</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.setPrototypeOf()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/setPrototypeOf",
-    "syntax": "<code>Object.setPrototypeOf(<var>obj</var>, <var>prototype</var>);</code>"
+    "syntax": "<code>Object.setPrototypeOf(<var>obj</var>, <var>prototype</var>);</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.values()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values",
-    "syntax": "Object.values(<var>obj</var>)"
+    "syntax": "<code>Object.values(<var>obj</var>)</code>",
+    "group": "Object",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.prototype.constructor</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor",
-    "syntax": ""
+    "syntax": "<code><var>obj</var> = { [ nameValuePair1[, ...nameValuePairN]] }<br><code><var>obj</var> = new Object([value])",
+    "group": "Object instences"
   },
   {
     "name": "<code>Object.prototype.__proto__</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__proto__",
-    "syntax": ""
+    "syntax": "",
+    "group": "Object instences",
+    "type": "Properties",
+    "note": "warning"
   },
   {
     "name": "<code>Object.prototype.__noSuchMethod__</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__noSuchMethod__",
-    "syntax": "<code><var>obj</var>.__noSuchMethod__ = <var>fun</var></code>"
-  },
-  {
-    "name": "<code>Object.prototype.__count__</code>",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/count",
-    "syntax": "<var>obj</var>.__count__"
-  },
-  {
-    "name": "<code>Object.prototype.__parent__</code>",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/parent",
-    "syntax": "<var>obj</var>.__parent__"
+    "syntax": "<code><var>obj</var>.__noSuchMethod__</code>",
+    "group": "Object instences",
+    "type": "Properties",
+    "note": "warning"
   },
   {
     "name": "<code>Object.prototype.__defineGetter__()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__defineGetter__",
-    "syntax": "<var>obj</var>.__defineGetter__(<var>prop</var>, <var>func</var>)"
+    "syntax": "<code><var>obj</var>.__defineGetter__(<var>prop</var>, <var>func</var>)</code>",
+    "group": "Object instences",
+    "type": "Methods",
+    "note": "warning"
   },
   {
     "name": "<code>Object.prototype.__defineSetter__()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__defineSetter__",
-    "syntax": "<var>obj</var>.__defineSetter__(<var>prop</var>, <var>fun</var>)"
+    "syntax": "<code><var>obj</var>.__defineSetter__(<var>prop</var>, <var>fun</var>)</code>",
+    "group": "Object instences",
+    "type": "Methods",
+    "note": "warning"
   },
   {
     "name": "<code>Object.prototype.__lookupGetter__()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__lookupGetter__",
-    "syntax": "<code><var>obj</var>.__lookupGetter__(<var>sprop</var>)</code>"
+    "syntax": "<code><var>obj</var>.__lookupGetter__(<var>sprop</var>)</code>",
+    "group": "Object instences",
+    "type": "Methods",
+    "note": "warning"
   },
   {
     "name": "<code>Object.prototype.__lookupSetter__()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__lookupSetter__",
-    "syntax": "<code><var>obj</var>.__lookupSetter__(<var>sprop</var>)</code>"
+    "syntax": "<code><var>obj</var>.__lookupSetter__(<var>sprop</var>)</code>",
+    "group": "Object instences",
+    "type": "Methods",
+    "note": "warning"
   },
   {
     "name": "<code>Object.prototype.hasOwnProperty()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty",
-    "syntax": "<code><var>obj</var>.hasOwnProperty(<var>prop</var>)</code>"
+    "syntax": "<code><var>obj</var>.hasOwnProperty(<var>prop</var>)</code>",
+    "group": "Object instences",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.prototype.isPrototypeOf()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isPrototypeOf",
-    "syntax": "<code><var>prototypeObj</var>.isPrototypeOf(<var>object</var>)</code>"
+    "syntax": "<code><var>obj</var>.isPrototypeOf(<var>object</var>)</code>",
+    "group": "Object instences",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.prototype.propertyIsEnumerable()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable",
-    "syntax": "<code><var>obj</var>.propertyIsEnumerable(<var>prop</var>)</code>"
+    "syntax": "<code><var>obj</var>.propertyIsEnumerable(<var>prop</var>)</code>",
+    "group": "Object instences",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.prototype.toSource()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toSource",
-    "syntax": "<code>Object.toSource();\n<var>obj</var>.toSource();\n</code>"
+    "syntax": "<code>Object.toSource();\n<var>obj</var>.toSource();\n</code>",
+    "group": "Object instences",
+    "type": "Methods",
+    "note": "warning"
   },
   {
     "name": "<code>Object.prototype.toLocaleString()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toLocaleString",
-    "syntax": "<code><var>obj</var>.toLocaleString();</code>"
+    "syntax": "<code><var>obj</var>.toLocaleString();</code>",
+    "group": "Object instences",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.prototype.toString()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString",
-    "syntax": "<code><var>obj</var>.toString()</code>"
+    "syntax": "<code><var>obj</var>.toString()</code>",
+    "group": "Object instences",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.prototype.unwatch()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/unwatch",
-    "syntax": "<code><var>obj</var>.unwatch(<var>prop</var>)</code>"
+    "syntax": "<code><var>obj</var>.unwatch(<var>prop</var>)</code>",
+    "group": "Object instences",
+    "type": "Methods",
+    "note": "warning"
   },
   {
     "name": "<code>Object.prototype.valueOf()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf",
-    "syntax": "<code><var>object</var>.valueOf()</code>"
+    "syntax": "<code><var>obj</var>.valueOf()</code>",
+    "group": "Object instences",
+    "type": "Methods"
   },
   {
     "name": "<code>Object.prototype.watch()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/watch",
-    "syntax": "<code><var>obj</var>.watch(<var>prop</var>, <var>handler</var>)</code>"
+    "syntax": "<code><var>obj</var>.watch(<var>prop</var>, <var>handler</var>)</code>",
+    "group": "Object instences",
+    "type": "Methods",
+    "note": "warning"
   },
   {
     "name": "<code>Object.prototype.eval()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/eval",
-    "syntax": "<var>obj</var>.eval(<var>string</var>)"
+    "syntax": "<var>obj</var>.eval(<var>string</var>)",
+    "group": "Object instences",
+    "type": "Methods",
+    "note": "warning"
   }
 ]

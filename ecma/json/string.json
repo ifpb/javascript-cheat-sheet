@@ -2,181 +2,252 @@
   {
     "name": "<code>String.fromCharCode()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode",
-    "syntax": "<code>String.fromCharCode(<var>num1</var>[, ...[, <var>numN</var>]])</code>"
+    "syntax": "<code>String.fromCharCode(<var>num1</var>[, ...[, <var>numN</var>]])</code>",
+    "group": "String",
+    "type": "Methods"
   },
   {
     "name": "<code>String.fromCodePoint()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint",
-    "syntax": "<code>String.fromCodePoint(<var>num1</var>[, ...[, <var>numN</var>]])</code>"
+    "syntax": "<code>String.fromCodePoint(<var>num1</var>[, ...[, <var>numN</var>]])</code>",
+    "group": "String",
+    "type": "Methods"
   },
   {
     "name": "<code>String.raw()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw",
-    "syntax": "<code>String.raw(<var>callSite</var>, <var>...substitutions</var>)String.raw`templateString`</code>"
+    "syntax": "<code>String.raw(<var>callSite</var>, <var>...substitutions</var>)</code>",
+    "group": "String",
+    "type": "Methods"
+  },
+  {
+    "name": "String.prototype.constructor",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype",
+    "syntax": "<code><var>str</var> = `ting`<br><var>str</var> = \"ting\"<br><var>str</var> = `ting`<br><var>str</var> = String(ting)<br><var>str</var> = new String(ting)</code>",
+    "group": "String instances"
   },
   {
     "name": "<code>String.prototype.length</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length",
-    "syntax": "<code><var>str</var>.length</code>"
+    "syntax": "<code><var>str</var>.length</code>",
+    "group": "String instances",
+    "type": "Properties"
   },
   {
     "name": "<code>String.prototype.charAt()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt",
-    "syntax": "<em>character</em> = <em>str</em>.charAt(<em>index</em>)"
+    "syntax": "<code><em>str</em>.charAt(<em>index</em>)</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.charCodeAt()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt",
-    "syntax": "<code><var>str</var>.charCodeAt(<var>index</var>)</code>"
+    "syntax": "<code><var>str</var>.charCodeAt(<var>index</var>)</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.codePointAt()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt",
-    "syntax": "<code><var>str</var>.codePointAt(<var>pos</var>)</code>"
+    "syntax": "<code><var>str</var>.codePointAt(<var>pos</var>)</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.concat()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat",
-    "syntax": "<var>str</var>.concat(<var>string2[</var>, <var>string3</var>, ..., <var>stringN</var>])"
+    "syntax": "<code><var>str</var>.concat(<var>string2[</var>, ..., <var>stringN</var>])</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.includes()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes",
-    "syntax": "<code><var>str</var>.includes(<var>searchString</var>[, <var>position</var>])</code>"
+    "syntax": "<code><var>str</var>.includes(<var>searchString</var>[, <var>position</var>])</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.endsWith()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith",
-    "syntax": "<var>str</var>.endsWith(<var>searchString</var>[, <var>length</var>])"
+    "syntax": "<code><var>str</var>.endsWith(<var>searchString</var>[, <var>length</var>])</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.indexOf()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf",
-    "syntax": "<var>str</var>.indexOf(<var>searchValue</var>[, <var>fromIndex</var>])"
+    "syntax": "<code><var>str</var>.indexOf(<var>searchValue</var>[, <var>fromIndex</var>])</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.lastIndexOf()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf",
-    "syntax": "<code><var>str</var>.lastIndexOf(<var>searchValue</var>[, <var>fromIndex</var>])</code>"
+    "syntax": "<code><var>str</var>.lastIndexOf(<var>searchValue</var>[, <var>fromIndex</var>])</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.localeCompare()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare",
-    "syntax": "<code><var>referenceStr</var>.localeCompare(<var>compareString</var>[, <var>locales</var>[, <var>options</var>]])</code>"
+    "syntax": "<code><var>str</var>.localeCompare(<var>compareString</var>[, <var>locales</var>[, <var>options</var>]])</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.match()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match",
-    "syntax": "<var>str</var>.match(<var>regexp</var>)"
+    "syntax": "<code><var>str</var>.match(<var>regexp</var>)</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.normalize()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize",
-    "syntax": "<code><var>str</var>.normalize([<var>form</var>])</code>"
+    "syntax": "<code><var>str</var>.normalize([<var>form</var>])</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.padEnd()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd",
-    "syntax": "<var>str</var>.padEnd(<var>targetLength</var> [, <var>padString</var>])"
+    "syntax": "<code><var>str</var>.padEnd(<var>targetLength</var> [, <var>padString</var>])</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.padStart()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart",
-    "syntax": "<var>str</var>.padStart(<var>targetLength</var> [, <var>padString</var>])"
+    "syntax": "<code><var>str</var>.padStart(<var>targetLength</var> [, <var>padString</var>])</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.quote()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/quote",
-    "syntax": "<code><var>str</var>.quote()</code>"
+    "syntax": "<code><var>str</var>.quote()</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.repeat()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat",
-    "syntax": "<code><var>str</var>.repeat(<var>count</var>);</code>"
+    "syntax": "<code><var>str</var>.repeat(<var>count</var>);</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.search()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search",
-    "syntax": "<var>str</var>.search(<var>regexp</var>)"
+    "syntax": "<code><var>str</var>.search(<var>regexp</var>)</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.slice()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice",
-    "syntax": "<code><var>str</var>.slice(<var>beginIndex</var>[, <var>endIndex</var>])</code>"
+    "syntax": "<code><var>str</var>.slice(<var>beginIndex</var>[, <var>endIndex</var>])</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.split()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split",
-    "syntax": "<code><var>str</var>.split([<var>separator</var>[, <var>limit</var>]])</code>"
+    "syntax": "<code><var>str</var>.split([<var>separator</var>[, <var>limit</var>]])</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.startsWith()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith",
-    "syntax": "<var>str</var>.startsWith(<var>searchString</var>[, <var>position</var>])"
+    "syntax": "<code><var>str</var>.startsWith(<var>searchString</var>[, <var>position</var>])</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.substr()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr",
-    "syntax": "<var>str</var>.substr(<var>start</var>[, <var>length]</var>)"
+    "syntax": "<code><var>str</var>.substr(<var>start</var>[, <var>length]</var>)</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.substring()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring",
-    "syntax": "<code><var>str</var>.substring(<var>indexStart</var>[,&nbsp;<var>indexEnd</var>])</code>"
+    "syntax": "<code><var>str</var>.substring(<var>indexStart</var>[,&nbsp;<var>indexEnd</var>])</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.toLocaleLowerCase()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase",
-    "syntax": "<var>str</var>.toLocaleLowerCase()<var>str</var>.toLocaleLowerCase(locale) <var>str</var>.toLocaleLowerCase([locale, locale, ...])"
+    "syntax": "<code><var>str</var>.toLocaleLowerCase([locale, locale, ...])</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.toLocaleUpperCase()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleUpperCase",
-    "syntax": "<var>str</var>.toLocaleUpperCase()<var>str</var>.toLocaleUpperCase(locale) <var>str</var>.toLocaleUpperCase([locale, locale, ...])"
+    "syntax": "<code><var>str</var>.toLocaleUpperCase([locale, locale, ...])</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.toLowerCase()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase",
-    "syntax": "<code><var>str</var>.toLowerCase()</code>"
-  },
-  {
-    "name": "<code>String.prototype.toSource()</code>",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toSource",
-    "syntax": "<code>String.toSource()<var>str</var>.toSource()</code>"
+    "syntax": "<code><var>str</var>.toLowerCase()</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.toString()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toString",
-    "syntax": "<code><var>str</var>.toString()</code>"
+    "syntax": "<code><var>str</var>.toString()</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.toUpperCase()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase",
-    "syntax": "<code><var>str</var>.toUpperCase()</code>"
+    "syntax": "<code><var>str</var>.toUpperCase()</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.trim()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim",
-    "syntax": "<code><var>str</var>.trim()</code>"
+    "syntax": "<code><var>str</var>.trim()</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.trimLeft()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimLeft",
-    "syntax": "<code><var>str</var>.trimLeft()</code>"
+    "syntax": "<code><var>str</var>.trimLeft()</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.trimRight()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimRight",
-    "syntax": "<code><var>str</var>.trimRight()</code>"
+    "syntax": "<code><var>str</var>.trimRight()</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype.valueOf()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/valueOf",
-    "syntax": "<code><var>str</var>.valueOf()</code>"
+    "syntax": "<code><var>str</var>.valueOf()</code>",
+    "group": "String instances",
+    "type": "Methods"
   },
   {
     "name": "<code>String.prototype[@@iterator]()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator",
-    "syntax": "<code><var>str</var>[Symbol.iterator]</code>"
+    "syntax": "<code><var>str</var>[Symbol.iterator]</code>",
+    "group": "String instances",
+    "type": "Methods"
   }
 ]

@@ -1,0 +1,337 @@
+[
+  {
+    "name": "<code>=</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Assignment",
+    "group": "Assignment operators"
+  },
+  {
+    "name": "<code>*=</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Multiplication_assignment",
+    "group": "Assignment operators"
+  },
+  {
+    "name": "<code>/=</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Division_assignment",
+    "group": "Assignment operators"
+  },
+  {
+    "name": "<code>%=</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Remainder_assignment",
+    "group": "Assignment operators"
+  },
+  {
+    "name": "<code>+=</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Addition_assignment",
+    "group": "Assignment operators"
+  },
+  {
+    "name": "<code>-=</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Subtraction_assignment",
+    "group": "Assignment operators"
+  },
+  {
+    "name": "<code><<=</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Left_shift_assignment",
+    "group": "Assignment operators"
+  },
+  {
+    "name": "<code>>>=</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Right_shift_assignment",
+    "group": "Assignment operators"
+  },
+  {
+    "name": "<code>>>>=</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Unsigned_right_shift_assignment",
+    "group": "Assignment operators"
+  },
+  {
+    "name": "<code>&=</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Bitwise_AND_assignment",
+    "group": "Assignment operators"
+  },
+  {
+    "name": "<code>^=</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Bitwise_XOR_assignment",
+    "group": "Assignment operators"
+  },
+  {
+    "name": "<code>|=</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Bitwise_OR_assignment",
+    "group": "Assignment operators"
+  },
+  {
+    "name": "<code>[a, b] = [1, 2]<br>{a, b} = {a:1, b:2}</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment",
+    "group": "Assignment operators"
+  },
+  {
+    "name": "<code>this</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this",
+    "group": "Primary expressions"
+  },
+  {
+    "name": "<code>function</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function",
+    "group": "Primary expressions"
+  },
+  {
+    "name": "<code>class</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/class",
+    "group": "Primary expressions"
+  },
+  {
+    "name": "<code>function*</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function*",
+    "group": "Primary expressions"
+  },
+  {
+    "name": "<code>yield</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield",
+    "group": "Primary expressions"
+  },
+  {
+    "name": "<code>yield*</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield*",
+    "group": "Primary expressions"
+  },
+  {
+    "name": "<code>async function*</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function",
+    "group": "Primary expressions"
+  },
+  {
+    "name": "<code>await</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await",
+    "group": "Primary expressions"
+  },
+  {
+    "name": "<code>[]</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "group": "Primary expressions"
+  },
+  {
+    "name": "<code>{}</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer",
+    "group": "Primary expressions"
+  },
+  {
+    "name": "<code>/ab+c/i</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "group": "Primary expressions"
+  },
+  {
+    "name": "<code>( )</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Grouping",
+    "group": "Primary expressions"
+  },
+  {
+    "name": "<code>object.property<br>object[\"property\"]</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors",
+    "group": "Left-hand-side expressions"
+  },
+  {
+    "name": "<code>new</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new",
+    "group": "Left-hand-side expressions"
+  },
+  {
+    "name": "<code>new.target</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target",
+    "group": "Left-hand-side expressions"
+  },
+  {
+    "name": "<code>super</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super",
+    "group": "Left-hand-side expressions"
+  },
+  {
+    "name": "<code>...obj</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax",
+    "group": "Left-hand-side expressions"
+  },
+  {
+    "name": "<code>A++</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment",
+    "group": "Increment and decrement"
+  },
+  {
+    "name": "<code>A--</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Decrement",
+    "group": "Increment and decrement"
+  },
+  {
+    "name": "<code>++A</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment",
+    "group": "Increment and decrement"
+  },
+  {
+    "name": "<code>--A</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Decrement",
+    "group": "Increment and decrement"
+  },
+  {
+    "name": "<code>delete</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete",
+    "group": "Unary operators"
+  },
+  {
+    "name": "<code>void</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void",
+    "group": "Unary operators"
+  },
+  {
+    "name": "<code>typeof</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof",
+    "group": "Unary operators"
+  },
+  {
+    "name": "<code>+</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Unary_plus",
+    "group": "Unary operators"
+  },
+  {
+    "name": "<code>-</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Unary_negation",
+    "group": "Unary operators"
+  },
+  {
+    "name": "<code>~</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_NOT",
+    "group": "Unary operators"
+  },
+  {
+    "name": "<code>!</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Logical_NOT",
+    "group": "Unary operators"
+  },
+  {
+    "name": "<code>+</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition",
+    "group": "Arithmetic operators"
+  },
+  {
+    "name": "<code>-</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Subtraction",
+    "group": "Arithmetic operators"
+  },
+  {
+    "name": "<code>/</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Division",
+    "group": "Arithmetic operators"
+  },
+  {
+    "name": "<code>*</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Multiplication",
+    "group": "Arithmetic operators"
+  },
+  {
+    "name": "<code>%</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder",
+    "group": "Arithmetic operators"
+  },
+  {
+    "name": "<code>**</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Exponentiation",
+    "group": "Arithmetic operators"
+  },
+  {
+    "name": "<code>in</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in",
+    "group": "Relational operators"
+  },
+  {
+    "name": "<code>instanceof</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof",
+    "group": "Relational operators"
+  },
+  {
+    "name": "<code><</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Less_than_operator",
+    "group": "Relational operators"
+  },
+  {
+    "name": "<code>></code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Greater_than_operator",
+    "group": "Relational operators"
+  },
+  {
+    "name": "<code><=</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Less_than_or_equal_operator",
+    "group": "Relational operators"
+  },
+  {
+    "name": "<code>>=</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Greater_than_or_equal_operator",
+    "group": "Relational operators"
+  },
+  {
+    "name": "<code>==</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality",
+    "group": "Equality operators"
+  },
+  {
+    "name": "<code>!=</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Inequality",
+    "group": "Equality operators"
+  },
+  {
+    "name": "<code>===</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Identity",
+    "group": "Equality operators"
+  },
+  {
+    "name": "<code>!==</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Nonidentity",
+    "group": "Equality operators"
+  },
+  {
+    "name": "<code><<</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Left_shift",
+    "group": "Bitwise shift operators"
+  },
+  {
+    "name": "<code>>></code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Right_shift",
+    "group": "Bitwise shift operators"
+  },
+  {
+    "name": "<code>>>></code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Unsigned_right_shift",
+    "group": "Bitwise shift operators"
+  },
+  {
+    "name": "<code>&</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_AND",
+    "group": "Binary bitwise operators"
+  },
+  {
+    "name": "<code>|</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_OR",
+    "group": "Binary bitwise operators"
+  },
+  {
+    "name": "<code>^</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_XOR",
+    "group": "Binary bitwise operators"
+  },
+  {
+    "name": "<code>&&</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Logical_AND",
+    "group": "Binary logical operators"
+  },
+  {
+    "name": "<code>||</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Logical_OR",
+    "group": "Binary logical operators"
+  },
+  {
+    "name": "<code>(condition ? ifTrue : ifFalse)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator",
+    "group": "Conditional (ternary) operator"
+  },
+  {
+    "name": "<code>,</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator",
+    "group": "Comma operator"
+  }
+]

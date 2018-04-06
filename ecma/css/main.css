@@ -1,0 +1,79 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+main h1.title {
+  width: 100%;
+  text-align: center;
+}
+
+main section h2.title {
+  margin: 1rem;
+}
+
+main section #Value-function-properties ,
+main section #Value-function-properties .doc ,
+main section #Fundamental-objects ,
+main section #Numbers-and-dates ,
+main section #Numbers-and-dates .doc ,
+main section #Keyed-collections,
+main section #Text-processing,
+main section #Text-processing .doc {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+main section .doc {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #fefefe;
+  margin: 1rem;
+}
+
+main section .doc .group {
+  margin: 1rem;
+}
+
+main section .doc h3 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.5rem;
+  margin: 0;
+  padding: 0 1rem;
+  background-color: #999;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section .doc h4 {
+  margin: 1rem 1% .4rem;
+}
+
+main section .doc h5 {
+  margin: .5rem 2% .2rem;
+  font-size: .9rem;
+}
+
+main section .doc h6 {
+  margin: .8rem 2% .2rem;
+  font-size: .8rem;
+}
+
+main section .doc .command {
+  margin: .2rem 2%;
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "name": "<code>eval()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval"
+  },
+  {
+    "name": "<code>uneval()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/uneval",
+    "note": "warning"
+  },
+  {
+    "name": "<code>isFinite()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isFinite"
+  },
+  {
+    "name": "<code>isNaN()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN"
+  },
+  {
+    "name": "<code>parseFloat()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat"
+  },
+  {
+    "name": "<code>parseInt()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt"
+  },
+  {
+    "name": "<code>decodeURI()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURI"
+  },
+  {
+    "name": "<code>decodeURIComponent()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent"
+  },
+  {
+    "name": "<code>encodeURI()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI"
+  },
+  {
+    "name": "<code>encodeURIComponent()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent"
+  },
+  {
+    "name": "<code>escape()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/escape",
+    "note": "warning"
+  },
+  {
+    "name": "<code>unescape()</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/unescape",
+    "note": "warning"
+  }
+]

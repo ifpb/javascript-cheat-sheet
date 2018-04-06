@@ -2,61 +2,66 @@
   {
     "name": "<code>Function.arguments</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/arguments",
-    "syntax": ""
+    "syntax": "<code><var>funObj</var>.arguments</code>",
+    "group": "Function instances",
+    "type": "Properties"
   },
   {
     "name": "<code>Function.arity</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/arity",
-    "syntax": ""
-  },
-  {
-    "name": "<code>Function.caller</code>",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/caller",
-    "syntax": ""
+    "syntax": "<code><var>funObj</var>.arity</code>",
+    "group": "Function instances",
+    "type": "Properties",
+    "note": "warning"
   },
   {
     "name": "<code>Function.length</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length",
-    "syntax": ""
+    "syntax": "<code><var>funObj</var>.length</code>",
+    "group": "Function instances",
+    "type": "Properties"
   },
   {
     "name": "<code>Function.name</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/name",
-    "syntax": ""
-  },
-  {
-    "name": "<code>Function.displayName</code>",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/displayName",
-    "syntax": ""
+    "syntax": "<code><var>funObj</var>.name</code>",
+    "group": "Function instances",
+    "type": "Properties"
   },
   {
     "name": "<code>Function.prototype.apply()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply",
-    "syntax": ""
+    "syntax": "<code><var>funObj</var>.apply(<var>thisArg</var>[, argsArray])</code>",
+    "group": "Function instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Function.prototype.bind()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind",
-    "syntax": "<var>fun</var>.bind(<var>thisArg</var>[, <var>arg1</var>[, <var>arg2</var>[, ...]]])"
+    "syntax": "<code><var>funObj</var>.bind(<var>thisArg</var>[, <var>arg1</var>[, ...[, <var>argN</var>]]])</code>",
+    "group": "Function instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Function.prototype.call()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call",
-    "syntax": "<code><var>function</var>.call(<var>thisArg</var>, <var>arg1</var>, <var>arg2</var>, ...)</code>"
+    "syntax": "<code><var>funObj</var>.call(<var>thisArg</var>[, <var>arg1</var>[, ...[, <var>argN</var>]]])</code>",
+    "group": "Function instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Function.prototype.isGenerator()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/isGenerator",
-    "syntax": "<code><var>fun</var>.isGenerator()</code>"
-  },
-  {
-    "name": "<code>Function.prototype.toSource()</code>",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toSource",
-    "syntax": "<var>function</var>.toSource();\nFunction.toSource();\n"
+    "syntax": "<code><var>funObj</var>.isGenerator()</code>",
+    "group": "Function instances",
+    "type": "Methods",
+    "note": "warning"
   },
   {
     "name": "<code>Function.prototype.toString()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toString",
-    "syntax": "<code><var>function</var>.toString()</code>"
+    "syntax": "<code><var>funObj</var>.toString()</code>",
+    "group": "Function instances",
+    "type": "Methods"
   }
 ]

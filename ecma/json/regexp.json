@@ -2,96 +2,140 @@
   {
     "name": "<code>RegExp.prototype</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/prototype",
-    "syntax": ""
+    "group": "RegExp",
+    "type": "Properties"
   },
   {
     "name": "<code>get RegExp[@@species]</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@species",
-    "syntax": "RegExp[Symbol.species]\n"
+    "syntax": "<code>RegExp[Symbol.species]</code>",
+    "group": "RegExp",
+    "type": "Properties"
   },
   {
     "name": "<code>RegExp.lastIndex</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastIndex",
-    "syntax": "<code><var>regExpObj</var>.lastIndex</code>"
+    "syntax": "<code><var>regExpObj</var>.lastIndex</code>",
+    "group": "RegExp",
+    "type": "Properties"
+  },
+  {
+    "name": "<code>RegExp.prototype.constructor</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/prototype",
+    "syntax": "<code><var>regex</var> = /pattern/flags<br><var>regex</var> = new RegExp(pattern[, flags])<br><var>regex</var> = RegExp(pattern[, flags])</code>",
+    "group": "RegExp instances"
   },
   {
     "name": "<code>RegExp.prototype.flags</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/flags",
-    "syntax": ""
+    "syntax": "<code>regex.flags</code>",
+    "group": "RegExp instances",
+    "type": "Properties"
   },
   {
     "name": "<code>RegExp.prototype.global</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/global",
-    "syntax": ""
+    "syntax": "<code>regex.global</code>",
+    "group": "RegExp instances",
+    "type": "Properties"
   },
   {
     "name": "<code>RegExp.prototype.ignoreCase</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/ignoreCase",
-    "syntax": ""
+    "syntax": "<code>regex.ignoreCase</code>",
+    "group": "RegExp instances",
+    "type": "Properties"
   },
   {
     "name": "<code>RegExp.prototype.multiline</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/multiline",
-    "syntax": ""
+    "syntax": "<code>regex.multiline</code>",
+    "group": "RegExp instances",
+    "type": "Properties"
   },
   {
     "name": "<code>RegExp.prototype.source</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source",
-    "syntax": ""
+    "syntax": "<code>regex.source</code>",
+    "group": "RegExp instances",
+    "type": "Properties"
   },
   {
     "name": "<code>RegExp.prototype.sticky</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/sticky",
-    "syntax": ""
+    "syntax": "<code>regex.sticky</code>",
+    "group": "RegExp instances",
+    "type": "Properties"
   },
   {
     "name": "<code>RegExp.prototype.unicode</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode",
-    "syntax": ""
+    "syntax": "<code>regex.unicode</code>",
+    "group": "RegExp instances",
+    "type": "Properties"
   },
   {
     "name": "<code>RegExp.prototype.compile()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/compile",
-    "syntax": "<code><var>regexObj</var>.compile(<var>pattern, flags</var>)</code>"
+    "syntax": "<code><var>regex</var>.compile(<var>pattern, flags</var>)</code>",
+    "group": "RegExp instances",
+    "type": "Methods"
   },
   {
     "name": "<code>RegExp.prototype.exec()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec",
-    "syntax": "<var>regexObj</var>.exec(<var>str</var>)"
+    "syntax": "<code><var>regex</var>.exec(<var>str</var>)</code>",
+    "group": "RegExp instances",
+    "type": "Methods"
   },
   {
     "name": "<code>RegExp.prototype.test()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test",
-    "syntax": "<code><var>regexObj</var>.test(<var>str</var>)</code>"
+    "syntax": "<code><var>regex</var>.test(<var>str</var>)</code>",
+    "group": "RegExp instances",
+    "type": "Methods"
   },
   {
     "name": "<code>RegExp.prototype[@@match]()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@match",
-    "syntax": "<var>regexp</var>[Symbol.match](str)"
+    "syntax": "<code><var>regex</var>[Symbol.match](str)</code>",
+    "group": "RegExp instances",
+    "type": "Methods"
   },
   {
     "name": "<code>RegExp.prototype[@@replace]()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@replace",
-    "syntax": "<var>regexp</var>[Symbol.replace](str, <var>newSubStr</var>|<var>function</var>)"
+    "syntax": "<code><var>regex</var>[Symbol.replace](str, <var>newSubStr</var>|<var>function</var>)</code>",
+    "group": "RegExp instances",
+    "type": "Methods"
   },
   {
     "name": "<code>RegExp.prototype[@@search]()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@search",
-    "syntax": "<var>regexp</var>[Symbol.search](str)"
+    "syntax": "<code><var>regex</var>[Symbol.search](str)</code>",
+    "group": "RegExp instances",
+    "type": "Methods"
   },
   {
     "name": "<code>RegExp.prototype[@@split]()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@split",
-    "syntax": "<var>regexp</var>[Symbol.split](str[, <var>limit</var>])"
+    "syntax": "<code><var>regex</var>[Symbol.split](str[, <var>limit</var>])</code>",
+    "group": "RegExp instances",
+    "type": "Methods"
   },
   {
     "name": "<code>RegExp.prototype.toSource()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/toSource",
-    "syntax": "<code><var>regexObj</var>.toSource()\n</code>"
+    "syntax": "<code><var>regex</var>.toSource()\n</code>",
+    "group": "RegExp instances",
+    "type": "Methods",
+    "note": "warning"
   },
   {
     "name": "<code>RegExp.prototype.toString()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/toString",
-    "syntax": "<code><var>regexObj</var>.toString();</code>"
+    "syntax": "<code><var>regex</var>.toString();</code>",
+    "group": "RegExp instances",
+    "type": "Methods"
   }
 ]

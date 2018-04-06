@@ -2,21 +2,27 @@
   {
     "name": "<code>Boolean.prototype</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean/prototype",
-    "syntax": ""
+    "group": "Boolean",
+    "type": "Properties"
   },
   {
-    "name": "<code>Boolean.prototype.toSource()</code>",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean/toSource",
-    "syntax": "<var>booleanObj</var>.toSource()\nBoolean.toSource()"
+    "name": "Boolean.prototype.constructor",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean/prototype",
+    "syntax": "<code><var>bool</var> = new Boolean([value])</code>",
+    "group": "Boolean instances"
   },
   {
     "name": "<code>Boolean.prototype.toString()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean/toString",
-    "syntax": "<code><var>bool</var>.toString()</code>"
+    "syntax": "<code><var>bool</var>.toString()</code>",
+    "group": "Boolean instances",
+    "type": "Methods"
   },
   {
     "name": "<code>Boolean.prototype.valueOf()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean/valueOf",
-    "syntax": "<code><var>bool</var>.valueOf()</code>"
+    "syntax": "<code><var>bool</var>.valueOf()</code>",
+    "group": "Boolean instances",
+    "type": "Methods"
   }
 ]
