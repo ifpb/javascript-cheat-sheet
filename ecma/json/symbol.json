@@ -99,7 +99,7 @@
   {
     "name": "Symbol.prototype.constructor",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/prototype",
-    "syntax": "<code><var>sym</var> = new Symbol([value])</code>",
+    "syntax": "<code><var>sym</var> = new Symbol([<var>value</var>])</code>",
     "group": "Symbol instances"
   },
   {

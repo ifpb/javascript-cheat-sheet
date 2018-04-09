@@ -13,13 +13,6 @@
     "type": "Properties"
   },
   {
-    "name": "<code>RegExp.lastIndex</code>",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastIndex",
-    "syntax": "<code><var>regExpObj</var>.lastIndex</code>",
-    "group": "RegExp",
-    "type": "Properties"
-  },
-  {
     "name": "<code>RegExp.prototype.constructor</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/prototype",
     "syntax": "<code><var>regex</var> = /pattern/flags<br><var>regex</var> = new RegExp(pattern[, flags])<br><var>regex</var> = RegExp(pattern[, flags])</code>",
@@ -28,49 +21,56 @@
   {
     "name": "<code>RegExp.prototype.flags</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/flags",
-    "syntax": "<code>regex.flags</code>",
+    "syntax": "<code><var>regex.flags</var></code>",
     "group": "RegExp instances",
     "type": "Properties"
   },
   {
     "name": "<code>RegExp.prototype.global</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/global",
-    "syntax": "<code>regex.global</code>",
+    "syntax": "<code><var>regex.global</var></code>",
     "group": "RegExp instances",
     "type": "Properties"
   },
   {
     "name": "<code>RegExp.prototype.ignoreCase</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/ignoreCase",
-    "syntax": "<code>regex.ignoreCase</code>",
+    "syntax": "<code><var>regex.ignoreCase</var></code>",
     "group": "RegExp instances",
+    "type": "Properties"
+  },
+  {
+    "name": "<code>RegExp.lastIndex</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastIndex",
+    "syntax": "<code><var>regex.lastIndex</var></code>",
+    "group": "RegExp",
     "type": "Properties"
   },
   {
     "name": "<code>RegExp.prototype.multiline</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/multiline",
-    "syntax": "<code>regex.multiline</code>",
+    "syntax": "<code><var>regex.multiline</var></code>",
     "group": "RegExp instances",
     "type": "Properties"
   },
   {
     "name": "<code>RegExp.prototype.source</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source",
-    "syntax": "<code>regex.source</code>",
+    "syntax": "<code><var>regex.source</var></code>",
     "group": "RegExp instances",
     "type": "Properties"
   },
   {
     "name": "<code>RegExp.prototype.sticky</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/sticky",
-    "syntax": "<code>regex.sticky</code>",
+    "syntax": "<code><var>regex.sticky</var></code>",
     "group": "RegExp instances",
     "type": "Properties"
   },
   {
     "name": "<code>RegExp.prototype.unicode</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode",
-    "syntax": "<code>regex.unicode</code>",
+    "syntax": "<code><var>regex.unicode</var></code>",
     "group": "RegExp instances",
     "type": "Properties"
   },
@@ -98,28 +98,28 @@
   {
     "name": "<code>RegExp.prototype[@@match]()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@match",
-    "syntax": "<code><var>regex</var>[Symbol.match](str)</code>",
+    "syntax": "<code><var>regex</var>[Symbol.match](<var>str</var>)</code>",
     "group": "RegExp instances",
     "type": "Methods"
   },
   {
     "name": "<code>RegExp.prototype[@@replace]()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@replace",
-    "syntax": "<code><var>regex</var>[Symbol.replace](str, <var>newSubStr</var>|<var>function</var>)</code>",
+    "syntax": "<code><var>regex</var>[Symbol.replace](<var>str</var>, <var>newSubStr</var>|<var>function</var>)</code>",
     "group": "RegExp instances",
     "type": "Methods"
   },
   {
     "name": "<code>RegExp.prototype[@@search]()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@search",
-    "syntax": "<code><var>regex</var>[Symbol.search](str)</code>",
+    "syntax": "<code><var>regex</var>[Symbol.search](<var>str</var>)</code>",
     "group": "RegExp instances",
     "type": "Methods"
   },
   {
     "name": "<code>RegExp.prototype[@@split]()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@split",
-    "syntax": "<code><var>regex</var>[Symbol.split](str[, <var>limit</var>])</code>",
+    "syntax": "<code><var>regex</var>[Symbol.split](<var>str</var>[, <var>limit</var>])</code>",
     "group": "RegExp instances",
     "type": "Methods"
   },

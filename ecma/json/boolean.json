@@ -8,7 +8,7 @@
   {
     "name": "Boolean.prototype.constructor",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean/prototype",
-    "syntax": "<code><var>bool</var> = new Boolean([value])</code>",
+    "syntax": "<code><var>bool</var> = new Boolean([<var>value</var>])</code>",
     "group": "Boolean instances"
   },
   {

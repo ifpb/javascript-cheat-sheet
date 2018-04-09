@@ -28,14 +28,14 @@
   {
     "name": "<code>Array.of()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of",
-    "syntax": "<code>Array.of(<var>element0</var>[[, ...[, <var>elementN</var>]])</code>",
+    "syntax": "<code>Array.of(<var>element0</var>[, ...[, <var>elementN</var>]])</code>",
     "group": "Array",
     "type": "Methods"
   },
   {
     "name": "Array.prototype.constructor",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype",
-    "syntax": "<code><var>arr</var> = [element0, ..., elementN]<br><var>arr</var> = new Array(element0[, ...[, elementN]])<br><var>arr</var> = new Array(arrayLength)</code>",
+    "syntax": "<code><var>arr</var> = [<var>element0</var>, ..., <var>elementN</var>]<br><var>arr</var> = new Array(<var>element0</var>[, ...[, <var>elementN</var>]])<br><var>arr</var> = new Array(<var>arrayLength</var>)</code>",
     "group": "Array instances"
   },
   {

@@ -23,7 +23,7 @@
   {
     "name": "String.prototype.constructor",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype",
-    "syntax": "<code><var>str</var> = `ting`<br><var>str</var> = \"ting\"<br><var>str</var> = `ting`<br><var>str</var> = String(ting)<br><var>str</var> = new String(ting)</code>",
+    "syntax": "<code><var>str</var> = 'string'<br><var>str</var> = \"string\"<br><var>str</var> = `string`<br><var>str</var> = String('string')<br><var>str</var> = new String('string')</code>",
     "group": "String instances"
   },
   {
@@ -57,7 +57,7 @@
   {
     "name": "<code>String.prototype.concat()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat",
-    "syntax": "<code><var>str</var>.concat(<var>string2[</var>, ..., <var>stringN</var>])</code>",
+    "syntax": "<code><var>str</var>.concat(<var>string2</var>[, ..., [<var>stringN</var>]])</code>",
     "group": "String instances",
     "type": "Methods"
   },
@@ -155,7 +155,7 @@
   {
     "name": "<code>String.prototype.split()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split",
-    "syntax": "<code><var>str</var>.split([<var>separator</var>[, <var>limit</var>]])</code>",
+    "syntax": "<code><var>str</var>.split([<var>separatorRegexp|separatorString</var>[, <var>limit</var>]])</code>",
     "group": "String instances",
     "type": "Methods"
   },
@@ -183,14 +183,14 @@
   {
     "name": "<code>String.prototype.toLocaleLowerCase()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase",
-    "syntax": "<code><var>str</var>.toLocaleLowerCase([locale, locale, ...])</code>",
+    "syntax": "<code><var>str</var>.toLocaleLowerCase([locale[, ...[, locale]]])</code>",
     "group": "String instances",
     "type": "Methods"
   },
   {
     "name": "<code>String.prototype.toLocaleUpperCase()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleUpperCase",
-    "syntax": "<code><var>str</var>.toLocaleUpperCase([locale, locale, ...])</code>",
+    "syntax": "<code><var>str</var>.toLocaleUpperCase([locale[, ...[, locale]]])</code>",
     "group": "String instances",
     "type": "Methods"
   },

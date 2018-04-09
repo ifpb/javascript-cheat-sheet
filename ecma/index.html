@@ -11,13 +11,103 @@
   <main class="docs">
     <h1 class="title"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference" target="_blank">EcmaScript</a></h1>
     
+    <h2 id="Basic">Basic</h2>
     <section>
-      <h2 class="title">Statements</h2>
+      <h2 class="title">Keywords, Literals</h2>
+      <div id="Keywords" class="doc">
+        <h3><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords">Keywords</a></h3>
+        <ul class="group">
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break" title="The break statement terminates the current loop, switch, or label statement and transfers program control to the statement following the terminated statement."><code>break</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch" title="The switch statement evaluates an expression, matching the expression's value to a case clause, and executes statements associated with that case, as well as statements in&nbsp;cases that follow the matching case."><code>case</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch" title="The try...catch statement marks a block of statements to try, and specifies a response, should an exception be thrown."><code>catch</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class" title="The class declaration creates a new class with a given name using prototype-based inheritance."><code>class</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const" title="The source for this interactive example is stored in a GitHub repository. If you'd like to contribute to the interactive examples project, please clone https://github.com/mdn/interactive-examples and send us a pull request."><code>const</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue" title="The continue statement terminates execution of the statements in the current iteration of the current or labeled loop, and continues execution of the loop with the next iteration."><code>continue</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger" title="The debugger statement invokes any available debugging functionality, such as setting a breakpoint. If no debugging functionality is available, this statement has no effect."><code>debugger</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/default" title="The default keyword can be used in two situations in JavaScript: within a&nbsp;switch statement, or with an&nbsp;export statement."><code>default</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete" title="The JavaScript delete operator removes a property from an object; if no more references to the same property are held, it is eventually released automatically."><code>delete</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while" title="The do...while statement creates a loop that executes a specified statement until the test condition evaluates to false. The condition is evaluated after executing the statement, resulting in the specified statement executing at least once."><code>do</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else" title="The if statement executes a statement if a specified condition is truthy. If the condition is falsy, another statement can be executed."><code>else</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export" title="The export statement is used when creating JavaScript modules to export functions, objects, or primitive values from the module so they can be used by other programs with the import statement."><code>export</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class" title="The class declaration creates a new class with a given name using prototype-based inheritance."><code>extends</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch" title="The try...catch statement marks a block of statements to try, and specifies a response, should an exception be thrown."><code>finally</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for" title="The for statement creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement (usually a block statement) to be executed in the loop."><code>for</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function" title="The function declaration defines a function with the specified parameters."><code>function</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else" title="The if statement executes a statement if a specified condition is truthy. If the condition is falsy, another statement can be executed."><code>if</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import" title="The import statement is used to import bindings which are exported by another module."><code>import</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in" title="The in operator returns true if the specified property is in the specified object or its prototype chain."><code>in</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof" title="The instanceof operator tests whether the prototype property of a constructor appears anywhere in the prototype chain of an object."><code>instanceof</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new" title="The new operator creates an instance of a user-defined object type or of one of the built-in object types that has a constructor function."><code>new</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return" title="The return statement ends function execution and specifies a value to be returned to the function caller."><code>return</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super" title="The super keyword is used to access and call functions on an object's parent."><code>super</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch" title="The switch statement evaluates an expression, matching the expression's value to a case clause, and executes statements associated with that case, as well as statements in&nbsp;cases that follow the matching case."><code>switch</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this" title="A function's this keyword behaves a little differently in JavaScript compared to other languages. It also has some differences between strict mode and non-strict mode."><code>this</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw" title="The throw statement throws a user-defined exception. Execution of the current function will stop (the statements after throw won't be executed), and control will be passed to the first catch block in the call stack. If no catch block exists among caller functions, the program will terminate."><code>throw</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch" title="The try...catch statement marks a block of statements to try, and specifies a response, should an exception be thrown."><code>try</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof" title="The typeof operator returns a string indicating the type of the unevaluated operand."><code>typeof</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var" title="The variable statement declares a variable, optionally initializing it to a value."><code>var</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void" title="The void operator evaluates the given expression and then returns undefined."><code>void</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while" title="The while statement creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement."><code>while</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/with" title="The with statement extends the scope chain for a statement."><code>with</code></a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield" title="The yield keyword is used to pause and resume a generator function (function* or legacy generator function)."><code>yield</code></a></li>
+        </ul>
+      </div>
+      <div id="Literals" class="doc">
+        <h3><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Literals">Literals</a></h3>
+        <div class="group">
+          <h4>Null Literal</h4>
+          <div class="comand">
+            <code>null</code>
+          </div>
+          <h4>Boolean Literal</h4>
+          <div class="comand">
+            <code>true</code>
+            <code>false</code>
+          </div>
+          <h4>Numeric Literal</h4>
+          <div class="comand">
+            <code>15</code><br>
+            <code>017</code>
+            <code>0o17</code>
+            <code>0O17</code><br>
+            <code>0b1111</code>
+            <code>0B1111</code><br>
+            <code>0xf</code>
+            <code>0Xf</code>
+            <code>0XF</code><br>
+            <code>-15</code><br>
+            <code>15.14</code><br>
+            <code>1.514e1</code>
+            <code>1.514E1</code><br>
+            <code>.14</code>
+          </div>
+        </div>
+        <div class="group">
+          <h4>Object Literal</h4>
+          <div class="comand">
+            <code>{id: 1234, name: 'Alice'}</code>
+          </div>
+          <h4>Array Literal</h4>
+          <div class="comand">
+            <code>[1, 2, 3, 4]</code>
+          </div>
+          <h4>String Literal</h4>
+          <div class="comand">
+            <code>'Lorem ipsum'</code><br>
+            <code>"Lorem ipsum"</code>
+          </div>
+          <h4>Template Literal</h4>
+          <div class="comand">
+            <code>`Lorem ipsum`</code>
+          </div>
+          <h4>Regular Expression Literal</h4>
+          <div class="comand">
+            <code>/abc/g</code>
+          </div>
+        </div>
+      </div>
+      <h2 class="title">Statements, Expressions and operators</h2>
       <div id="Statements" class="doc"></div>  
-    </section> 
-    
-    <section>
-      <h2 class="title">Expressions and operators</h2>
       <div id="Expressions-and-operators" class="doc"></div>
     </section>
     
@@ -28,6 +118,8 @@
         <div id="Function-properties" class="doc"></div>
       </div>
     </section>
+
+    <h2 id="Global-objects">Global Objects</h2>
     
     <section>
       <h2 class="title">Fundamental objects</h2>
