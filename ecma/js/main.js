@@ -43,7 +43,7 @@ function createElement(id, docsData) {
 
   const newLines = [
     `<h3 class="title">
-      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/${id}" target="_blank">${id.replace(/-/g, ' ')}</a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/${id}" id="${id}" target="_blank">${id.replace(/-/g, ' ')}</a>
     </h3>`
   ]
 
