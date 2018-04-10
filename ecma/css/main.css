@@ -24,7 +24,7 @@ h3 a:hover {
   border-bottom: 1px solid #fff;
 }
 
-#Global-objects,
+#Global_objects,
 #Basic {
   border-bottom: 1px solid #000;
   font-size: 2rem;
@@ -43,14 +43,14 @@ h3 a:hover {
 }
 
 .docs section,
-.docs section #Value-function-properties ,
-.docs section #Value-function-properties .doc ,
-.docs section #Fundamental-objects ,
-.docs section #Numbers-and-dates ,
-.docs section #Numbers-and-dates .doc ,
-.docs section #Keyed-collections,
-.docs section #Text-processing,
-.docs section #Text-processing .doc,
+.docs section #Value_function_properties ,
+.docs section #Value_function_properties .doc ,
+.docs section #Fundamental_objects ,
+.docs section #Numbers_and_dates ,
+.docs section #Numbers_and_dates .doc ,
+.docs section #Keyed_collections,
+.docs section #Text_processing,
+.docs section #Text_processing .doc,
 .docs section .doc {
   display: flex;
   flex-flow: row wrap;
@@ -64,7 +64,7 @@ h3 a:hover {
 }
 
 .docs section .doc .group {
-  margin: 1rem;
+  padding: 1rem;
 }
 
 .docs section .doc h3 {
@@ -99,7 +99,6 @@ h3 a:hover {
 }
 
 .docs #Keywords ul {
-  padding: 0;
   list-style-type: none;
   columns: 4;
 }

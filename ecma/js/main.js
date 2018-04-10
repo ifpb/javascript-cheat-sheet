@@ -6,6 +6,36 @@ Array.prototype.uniq = function (a) {
   return c.indexOf(a, b + 1) < 0
 })
 
+const docs = {
+  'Array': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array',
+  'Boolean': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean',
+  'Date': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date',
+  'Function': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function',
+  'Intl': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl',
+  'JSON': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON',
+  'Map': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map',
+  'Math': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math',
+  'Number': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number',
+  'Object': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object',
+  'RegExp': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp',
+  'Set': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set',
+  'String': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
+  'Symbol': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol',
+  'Statements': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference#Statements',
+  'Expressions_and_operators': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference#Expressions_and_operators',
+  'Function_properties': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects#Function_properties',
+  'Value_properties': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects#Value_properties'
+}
+
+async function loadData() {
+
+  const docsData = await getDocsData(Object.keys(docs))
+
+  for (const [name, doc] of Object.entries(docsData)) {
+    createElement(name, doc, docs)
+  }
+}
+
 async function getDocsData(docs) {
   const docsData = {}
 
@@ -20,9 +50,9 @@ async function getDocsData(docs) {
   return docsData
 }
 
-function createElement(id, docsData) {
+function createElement(id, doc, mdn) {
   const element = document.querySelector(`#${id}`)
-  const lines = docsData[`${id}`].map(item => {
+  const lines = doc.map(item => {
     const line = {
       value: `<div class="command"><a href="${item.url}" target="_blank">${item.syntax || item.name}</a></div>`
     }
@@ -42,8 +72,10 @@ function createElement(id, docsData) {
   let categories = lines.map(line => line.category).uniq()
 
   const newLines = [
-    `<h3 class="title">
-      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/${id}" id="${id}" target="_blank">${id.replace(/-/g, ' ')}</a>
+    `<h3 class="title" id="${id}">
+      <a href="${mdn[id]}" target="_blank">
+        ${id.replace(/_/g, ' ')}
+      </a>
     </h3>`
   ]
 
@@ -83,30 +115,4 @@ function createElement(id, docsData) {
   element.innerHTML = newLines.join('')
 }
 
-(async () => {
-  const docs = [
-    'Array',
-    'Boolean',
-    'Date',
-    'Function',
-    'Intl',
-    'JSON',
-    'Map',
-    'Math',
-    'Number',
-    'Object',
-    'RegExp',
-    'Set',
-    'String',
-    'Symbol',
-    'Statements',
-    'Expressions-and-operators',
-    'Function-properties',
-    'Value-properties'
-  ]
-
-  const docsData = await getDocsData(docs)
-  for (const [name, doc] of Object.entries(docsData)) {
-    createElement(name, docsData)
-  }
-})()
+loadData()
