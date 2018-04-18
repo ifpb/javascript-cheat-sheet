@@ -72,7 +72,7 @@ function createElement(id, doc, mdn) {
   let categories = lines.map(line => line.category).uniq()
 
   const newLines = [
-    `<h3 class="title" id="${id}">
+    `<h3 class="title">
       <a href="${mdn[id]}" target="_blank">
         ${id.replace(/_/g, ' ')}
       </a>
