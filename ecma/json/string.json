@@ -139,6 +139,13 @@
     "type": "Methods"
   },
   {
+    "name": "<code>String.prototype.replace(regexp|substr, newSubstr|function)</code>",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace",
+    "syntax": "<code><var>str</var>.replace(<var>regexp|substr</var>, <var>newSubstr|function</var>);</code>",
+    "group": "String instances",
+    "type": "Methods"
+  },
+  {
     "name": "<code>String.prototype.search()</code>",
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search",
     "syntax": "<code><var>str</var>.search(<var>regexp</var>)</code>",
